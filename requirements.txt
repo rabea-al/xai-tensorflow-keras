@@ -1,5 +1,5 @@
 tensorflow
-tensorflow-datasets
+tensorflow-datasets==4.9.2
 numpy
 scikit-learn
 opencv-python
