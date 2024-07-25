@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TEST_XIRCUITS: |
-        examples/KerasTrainImageClassifier.xircuits
-        examples/KerasModelPredict.xircuits
+        examples/TFKerasTrainImageClassifier.xircuits
+        examples/TFKerasModelPredict.xircuits
 
     steps:
     - name: Checkout Repository

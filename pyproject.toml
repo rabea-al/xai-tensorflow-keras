@@ -10,5 +10,5 @@ keywords = ["xircuits", "tensorflow", "keras", "deep learning", "transfer learni
 
 # Xircuits-specific configurations
 [tool.xircuits]
-default_example_path = "examples/KerasModelPredict.xircuits"
+default_example_path = "examples/TFKerasModelPredict.xircuits"
 requirements_path = "requirements.txt"
