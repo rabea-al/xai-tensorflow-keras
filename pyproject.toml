@@ -8,6 +8,16 @@ readme = "README.md"
 repository = "https://github.com/XpressAI/xai-pytorch"
 keywords = ["xircuits", "tensorflow", "keras", "deep learning", "transfer learning"]
 
+dependencies = [
+    "tensorflow==2.17.0",
+    "tensorflow-datasets==4.9.6",
+    "numpy",
+    "scikit-learn==1.5.2",
+    "opencv-python",
+    "tqdm",
+    "pillow"
+]
+
 # Xircuits-specific configurations
 [tool.xircuits]
 default_example_path = "examples/TFKerasModelPredict.xircuits"
