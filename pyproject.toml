@@ -10,9 +10,9 @@ keywords = ["xircuits", "tensorflow", "keras", "deep learning", "transfer learni
 
 dependencies = [
     "tensorflow==2.17.0",
-    "tensorflow-datasets==4.9.6",
+    "tensorflow-datasets==4.9.3",
     "numpy",
-    "scikit-learn==1.5.2",
+    "scikit-learn==1.5.*",
     "opencv-python",
     "tqdm",
     "pillow"
